@@ -11,6 +11,9 @@ First idea:
 2. Fine-tune mono-BERT on TREC_COVID
 3. Fine_tune duo_BERT on TREC_COVID
 
+Commands for pyserini:
+https://castorini.github.io/pyserini/2cr/msmarco-v1-passage.html
+
 Question for Koen:
 1. How to deal with the huge dataset (TREC-COVID (12GB) & TREC Medical (~60GB) -> One of the four parts maybe, and how do we still split it then. 
 2. Would this be reconsidered worth-while to reuse their model, or can we only take inspiration from it or just implement a mono-BERT or duo-BERT for reranking ourselfs. 
