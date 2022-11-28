@@ -14,6 +14,11 @@ First idea:
 Commands for pyserini:
 https://castorini.github.io/pyserini/2cr/msmarco-v1-passage.html
 
+Going into the cluster: 
+1. Open putty -> choose client -> cn99.science.ru.nl
+2. Login with your science account
+3. TREC COVID -> /ceph/csedu-scratch/course/I00041_informationretrieval/shared/trec-covid
+
 Question for Koen:
 1. How to deal with the huge dataset (TREC-COVID (12GB) & TREC Medical (~60GB) -> One of the four parts maybe, and how do we still split it then. 
 2. Would this be reconsidered worth-while to reuse their model, or can we only take inspiration from it or just implement a mono-BERT or duo-BERT for reranking ourselfs. 
