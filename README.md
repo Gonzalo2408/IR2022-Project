@@ -8,7 +8,7 @@ Creating a medical ranking system with medical BERT.
 
 First idea: 
 1. Use bert-large-msmarco-pretrained_only.zip from https://github.com/castorini/duobert, as a starting point. 
-2. Fine-tune mono-BERT on TREC_COVID
+2. Fine-tune mono-BERT on TREC_COVID (https://github.com/nyu-dl/dl4marco-bert)
 3. Fine_tune duo_BERT on TREC_COVID
 
 Commands for pyserini:
