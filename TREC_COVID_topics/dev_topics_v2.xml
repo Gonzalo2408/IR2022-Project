@@ -1,0 +1,27 @@
+<topics task="COVIDSearch 2020" batch="5">
+<topic number="47">
+<query>COVID-19 outcomes in children</query>
+<question>what are the health outcomes for children who contract COVID-19?</question>
+<narrative>Looking for studies on health outcomes in children related to COVID-19. This includes studies attempting to explain the underlying biological mechanisms for why children differ from adults in response to infection.</narrative>
+</topic>
+<topic number="14">
+<query>coronavirus super spreaders</query>
+<question>what evidence is there related to COVID-19 super spreaders</question>
+<narrative>seeking range of information related to the number and proportion of super spreaders, their patterns of behavior that lead to spread, and potential prevention strategies targeted specifically toward super spreaders</narrative>
+</topic>
+<topic number="13">
+<query>how does coronavirus spread</query>
+<question>what are the transmission routes of coronavirus?</question>
+<narrative>Looking for information on all possible ways to contract COVID-19 from people, animals and objects</narrative>
+</topic>
+<topic number="34">
+<query>coronavirus recovery</query>
+<question>What are the longer-term complications of those who recover from COVID-19?</question>
+<narrative>Seeking information on the health outcomes for those that recover from the virus. Excludes studies only focusing on adverse effects related to a particular COVID-19 drug.</narrative>
+</topic>
+<topic number="42">
+<query>Vitamin D and COVID-19</query>
+<question>Does Vitamin D impact COVID-19 prevention and treatment?</question>
+<narrative>This includes studies describing possible role of Vitamin D in prevention of COVID-19, suppression of cytokine storm, clinical outcomes, and associations between Vitamin D status and COVID-19 mortality.</narrative>
+</topic>
+</topics>
