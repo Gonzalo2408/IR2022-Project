@@ -28,7 +28,7 @@ flags.DEFINE_string(
     "The vocabulary file that the BERT model was trained on.")
 
 flags.DEFINE_string(
-    "corpus", "/Json_files/abstract_json.json",
+    "corpus", "/Json_files/corpus.json",
     "Path to the cbor file containing the Wikipedia paragraphs.")
 
 flags.DEFINE_string(
