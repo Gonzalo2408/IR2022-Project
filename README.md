@@ -13,7 +13,7 @@ First idea:
 
 Checklist:
 1. Created corpus (corpus.json using create_corpus.ipynb)
-2. Created toics files (train_topics_v2/test_topics_v2/dev_topics_v2.xml manually)
+2. Created topics files (train_topics_v2/test_topics_v2/dev_topics_v2.xml manually)
 3. Created qrels split (train/test/dev.qrels manually)
 4. Created run files (train/test/dev.run using retrieval_cord_19.ipynb)
 
