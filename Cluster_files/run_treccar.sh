@@ -1,11 +1,12 @@
 # !/usr/bin/env bash
 # SBATCH --partition=csedu
-# SBATCH --mem=15G
-# SBATCH --cpus-per-task=6
+# SBATCH --mem=13G
+# SBATCH --cpus-per-task=3
 # SBATCH --gres=gpu:1
 # SBATCH --time=7:00:00
-# SBATCH --output=./logs/experiment3_%J_%a.out
-# SBATCH --error=./logs/experiment3_%J_%a.err
+# SBATCH --output=./logs/treccar.out
+# SBATCH --error=./logs/treccar.err
+#SBATCH --mail-user=cjordaan
 # SBATCH --mail-type=BEGIN,END,FAIL
 
 # location of repository and data
