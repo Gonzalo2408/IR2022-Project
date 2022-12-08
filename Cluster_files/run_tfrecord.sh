@@ -15,7 +15,7 @@ project_dir=/ # assume sbatch is called from root project dir
 python convert_treccar_to_tfrecord.py \
   --output_folder=/Output/tfrecord \
   --vocab_file=/vocab.txt \
-  --corpus=/paragraphCorpus/dedup.articles-paragraphs.cbor \
+  --corpus=/Json_files/corpus.json \
   --qrels_train=/Qrels/qrels_train_v2.txt \
   --qrels_dev=/Qrels/qrels_dev_v2.txt \
   --qrels_test=/Qrels/qrels_test_v2.txt \
