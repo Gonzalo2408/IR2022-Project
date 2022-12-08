@@ -19,40 +19,40 @@ flags = tf.flags
 FLAGS = flags.FLAGS
 
 flags.DEFINE_string(
-    "output_folder", None,
+    "output_folder", "/Output",
     "Folder where the TFRecord files will be writen.")
 
 flags.DEFINE_string(
     "vocab_file",
-    "./data/bert/uncased_L-24_H-1024_A-16/vocab.txt",
+    "/vocab.txt",
     "The vocabulary file that the BERT model was trained on.")
 
 flags.DEFINE_string(
-    "corpus", "./data/dedup.articles-paragraphs.cbor",
+    "corpus", "/Json_files/abstract_json.json",
     "Path to the cbor file containing the Wikipedia paragraphs.")
 
 flags.DEFINE_string(
-    "qrels_train", "./data/train.qrels",
+    "qrels_train", "/Qrels/qrels_train_v2.txt",
     "Path to the topic / relevant doc ids pairs for training.")
 
 flags.DEFINE_string(
-    "qrels_dev", "./data/dev.qrels",
+    "qrels_dev", "/Qrels/qrels_dev_v2.txt",
     "Path to the topic / relevant doc ids pairs for dev.")
 
 flags.DEFINE_string(
-    "qrels_test", "./data/test.qrels",
+    "qrels_test", "/Qrels/qrels_test_v2.txt",
     "Path to the topic / relevant doc ids pairs for test.")
 
 flags.DEFINE_string(
-    "run_train", "./data/train.run",
+    "run_train", "/TREC_COVID_RUN/train.run",
     "Path to the topic / candidate doc ids pairs for training.")
 
 flags.DEFINE_string(
-    "run_dev", "./data/dev.run",
+    "run_dev", "/TREC_COVID_RUN/dev.run",
     "Path to the topic / candidate doc ids pairs for dev.")
 
 flags.DEFINE_string(
-    "run_test", "./data/test.run",
+    "run_test", "/TREC_COVID_RUN/test.run",
     "Path to the topic / candidate doc ids pairs for test.")
 
 flags.DEFINE_integer(
@@ -67,11 +67,11 @@ flags.DEFINE_integer(
     "Sequences longer than this will be truncated.")
 
 flags.DEFINE_integer(
-    "num_train_docs", 10,
+    "num_train_docs", 50,
     "The number of docs per query for the training set.")
 
 flags.DEFINE_integer(
-    "num_dev_docs", 10,
+    "num_dev_docs", 50,
     "The number of docs per query for the development set.")
 
 flags.DEFINE_integer(
