@@ -1,0 +1,23 @@
+# neural stuff
+-f https://download.pytorch.org/whl/cu113/torch_stable.html
+torch==1.11.0
+torchvision==0.12.0
+pytorch-lightning
+setuptools==59.5.0
+torchmetrics==0.8.2
+pyserini== 0.16.1
+cbor
+
+
+# always useful in any data science project
+numpy==1.18.4
+scikit-learn==1.0.2
+matplotlib
+jupyterlab
+seaborn
+pandas
+
+# convenient python utils
+tqdm
+click
+black
