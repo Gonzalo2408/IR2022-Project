@@ -4,8 +4,6 @@ Run_tfrecord converts specified run files to tfrecord so they can be used for tr
 
 There is also three scripts for run_treccovid. These refer to the models we have trained. 
 
-They are currently written to evaluate on CDS since that was the last task we did for this project.
-
 _base is for the Medical BERT model without fine-tuning.
 
 _2 has been trained for 100 000 iterations. 

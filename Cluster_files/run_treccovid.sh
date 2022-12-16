@@ -13,7 +13,7 @@
 project_dir=.. # assume sbatch is called from root project dir
 
 python run_treccar.py \
-  --data_dir=./Output/CDS_final \
+  --data_dir=./Output/tfrecord \
   --bert_config_file=/ceph/csedu-scratch/course/I00041_informationretrieval/group20/Json_files/bert_config.json \
   --init_checkpoint=/ceph/csedu-scratch/course/I00041_informationretrieval/group20/Transformer_ranking/model.ckpt-150000\
   --output_dir=./Output/output_trec_cord/ \
