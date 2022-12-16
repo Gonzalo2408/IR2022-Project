@@ -9,3 +9,5 @@ _base is for the Medical BERT model without fine-tuning.
 _2 has been trained for 100 000 iterations. 
 
 the one without any extension was ran for 40 000 training iterations.
+
+The run_treccar file can only be run with tensorflow 1.15 or lower, so they were run in a virtual environment with the final requirements and python 3.6

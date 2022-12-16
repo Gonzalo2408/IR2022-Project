@@ -1,0 +1,1 @@
+The actual configuration files of the BERT are too big to be uploaded on Github, they are thus available on the cluster under the Output folder. The naming scheme is the same as the sh files.
